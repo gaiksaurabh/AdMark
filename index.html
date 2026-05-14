@@ -1,247 +1,423 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdMark Studio | Digital Marketing & Print Media</title>
-    <meta name="description"
-        content="AdMark Studio - We Design. You Shine. Premium Digital Marketing, Print Media, and Multiservices.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ADDMARK — Digital Marketing & Printing Services</title>
+<meta name="description" content="ADDMARK — digital marketing and printing services in Aurangabad. Logo design, social media marketing, business cards, banners, brochures and more. We Design. You Shine.">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                <img src="assets/logo.png" alt="AdMark Studio">
-            </a>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact" class="nav-btn">Get Started</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
+<!-- Intro curtain -->
+<div class="curtain" aria-hidden="true">
+  <div class="curtain-inner">
+    <span class="curtain-word">ADD</span><span class="curtain-word">MARK</span>
+  </div>
+</div>
 
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu">
-        <div class="close-btn"><i class="fas fa-times"></i></div>
-        <ul class="mobile-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+<!-- Cursor -->
+<div class="cursor" aria-hidden="true">
+  <div class="cursor-ring"></div>
+  <div class="cursor-dot"></div>
+</div>
+
+<!-- Topbar -->
+<header class="topbar">
+  <a href="#top" class="brand" data-cursor="link" aria-label="ADDMARK home">
+    <img src="logo.png" alt="ADDMARK — We Design. You Shine.">
+    <span class="brand-text">ADDMARK</span>
+  </a>
+  <nav class="topnav" aria-label="Primary">
+    <a href="#services" data-cursor="link"><span>Services</span></a>
+    <a href="#work" data-cursor="link"><span>Our Work</span></a>
+    <a href="#process" data-cursor="link"><span>How We Work</span></a>
+    <a href="#studio" data-cursor="link"><span>About Us</span></a>
+  </nav>
+  <a href="#contact" class="pill-btn" data-cursor="cta">
+    <span class="pill-dot"></span>
+    <span>Get a free quote</span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">✕</button>
+  <ul>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Our Work</a></li>
+    <li><a href="#process">How We Work</a></li>
+    <li><a href="#studio">About Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="mobile-foot">
+    <span>admark.studio9@gmail.com</span>
+    <span>+91 91393 75922</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-mesh">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="blob blob-c"></div>
+    <div class="grain"></div>
+  </div>
+
+  <div class="hero-meta">
+    <span>Aurangabad, Maharashtra</span>
+    <span class="meta-divider"></span>
+    <span>Open today · 10am – 7pm</span>
+  </div>
+
+  <h1 class="hero-title">
+    <span class="line"><span class="reveal"><span>We Design.</span></span></span>
+    <span class="line"><span class="reveal"><span><em>You</em> Shine.</span></span></span>
+  </h1>
+
+  <p class="hero-lede">
+    Helping small and growing businesses get noticed — through
+    <span class="hl">eye-catching designs</span>,
+    <span class="hl">smart social media</span>, and
+    <span class="hl">high-quality printing</span>. All from one place.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#contact" class="btn-magnet" data-cursor="cta">
+      <span>Get a free quote</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <a href="https://wa.me/919139375922" class="btn-ghost" data-cursor="link">Or chat on WhatsApp →</a>
+  </div>
+
+  <div class="hero-stats">
+    <div><span class="stat-num" data-count="500" data-suffix="+">0+</span><span class="stat-label">Happy clients</span></div>
+    <div><span class="stat-num" data-count="1200" data-suffix="+">0+</span><span class="stat-label">Projects done</span></div>
+    <div><span class="stat-num" data-count="5" data-suffix=" yrs">0</span><span class="stat-label">In business</span></div>
+    <div><span class="stat-num" data-count="24" data-suffix=" hrs">0</span><span class="stat-label">Fast delivery</span></div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <span>Scroll Down</span>
+    <span class="scroll-line"><span></span></span>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <div class="marquee-row">
+      <span>Logo Design</span><span class="dot">●</span>
+      <span>Business Cards</span><span class="dot">●</span>
+      <span>Social Media</span><span class="dot">●</span>
+      <span>Flex Banners</span><span class="dot">●</span>
+      <span>Brochures</span><span class="dot">●</span>
+      <span>Google Ads</span><span class="dot">●</span>
+    </div>
+    <div class="marquee-row">
+      <span>Logo Design</span><span class="dot">●</span>
+      <span>Business Cards</span><span class="dot">●</span>
+      <span>Social Media</span><span class="dot">●</span>
+      <span>Flex Banners</span><span class="dot">●</span>
+      <span>Brochures</span><span class="dot">●</span>
+      <span>Google Ads</span><span class="dot">●</span>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <header class="sec-head">
+    <div class="sec-eyebrow"><span class="sec-num">01</span> Our Services</div>
+    <h2 class="sec-title">Everything your business needs to <em>look great</em> and get more customers.</h2>
+  </header>
+
+  <div class="srv-grid">
+    <article class="srv srv-feature" data-cursor="link">
+      <span class="srv-num">01</span>
+      <span class="srv-arrow" aria-hidden="true">↗</span>
+      <h3>Logo & <em>Branding</em></h3>
+      <p>A logo your customers will remember. We design logos, choose colours and fonts, and make your business look professional everywhere.</p>
+      <ul class="srv-tags"><li>Logo Design</li><li>Visiting Cards</li><li>Letterhead</li></ul>
+    </article>
+
+    <article class="srv" data-cursor="link">
+      <span class="srv-num">02</span>
+      <span class="srv-arrow" aria-hidden="true">↗</span>
+      <h3>Social Media <em>Marketing</em></h3>
+      <p>We post for you on Instagram, Facebook, and YouTube. Daily posts, reels, and ads that bring real customers — not just likes.</p>
+      <ul class="srv-tags"><li>Instagram</li><li>Facebook Ads</li><li>Google Ads</li></ul>
+    </article>
+
+    <article class="srv" data-cursor="link">
+      <span class="srv-num">03</span>
+      <span class="srv-arrow" aria-hidden="true">↗</span>
+      <h3>Printing <em>Services</em></h3>
+      <p>Business cards, flex banners, brochures, posters, pamphlets, ID cards — printed fast and on great paper. We can deliver in 24 hours.</p>
+      <ul class="srv-tags"><li>Business Cards</li><li>Flex Banners</li><li>Brochures</li></ul>
+    </article>
+
+    <article class="srv" data-cursor="link">
+      <span class="srv-num">04</span>
+      <span class="srv-arrow" aria-hidden="true">↗</span>
+      <h3>Website <em>Design</em></h3>
+      <p>A simple, modern website for your business. Easy to update, works on mobile, and helps customers find you on Google.</p>
+      <ul class="srv-tags"><li>Websites</li><li>Mobile-Ready</li><li>Google SEO</li></ul>
+    </article>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="work">
+  <header class="sec-head">
+    <div class="sec-eyebrow"><span class="sec-num">02</span> Our Work</div>
+    <h2 class="sec-title sec-title-tight">Some of our <em>recent projects</em> you might like.</h2>
+  </header>
+
+  <div class="work-grid">
+    <a href="#contact" class="case case-1" data-cursor="case">
+      <div class="case-art">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="600" fill="#0d2a45"/>
+          <g class="rot-slow">
+            <circle cx="400" cy="300" r="180" fill="none" stroke="#3ba6ed" stroke-width="1.5" stroke-dasharray="3 8"/>
+            <circle cx="400" cy="300" r="120" fill="none" stroke="#2dd99c" stroke-width="1.5"/>
+            <circle cx="400" cy="300" r="240" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="1 12" opacity=".35"/>
+          </g>
+          <g class="bob">
+            <text x="400" y="322" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="110" fill="#ffffff">CAFE</text>
+          </g>
+          <text x="40" y="560" font-family="Poppins" font-size="14" font-weight="600" fill="#ffffff" opacity=".7">AURANGABAD CAFE / 2025</text>
+          <text x="760" y="560" text-anchor="end" font-family="Poppins" font-size="14" font-weight="600" fill="#ffffff" opacity=".7">№ 01</text>
+        </svg>
+      </div>
+      <div class="case-meta">
+        <span class="case-num">01 — Logo Design</span>
+        <h4>Cafe Aurangabad</h4>
+        <p>New logo and menu cards for a local cafe.</p>
+        <span class="case-go">See more →</span>
+      </div>
+    </a>
+
+    <a href="#contact" class="case case-2" data-cursor="case">
+      <div class="case-art">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="600" fill="#e9eef5"/>
+          <g class="float-soft">
+            <rect x="240" y="120" width="320" height="380" rx="22" fill="#ffffff" stroke="#0d2a45" stroke-width="2"/>
+            <rect x="270" y="160" width="260" height="80" rx="6" fill="#0d2a45"/>
+            <text x="400" y="216" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#ffffff">Sweet Shop</text>
+            <rect x="270" y="260" width="120" height="14" rx="4" fill="#0d2a45" opacity=".7"/>
+            <rect x="270" y="284" width="180" height="10" rx="4" fill="#0d2a45" opacity=".25"/>
+            <circle cx="320" cy="380" r="40" fill="#2dd99c"/>
+            <circle cx="400" cy="380" r="40" fill="#0d2a45"/>
+            <circle cx="480" cy="380" r="40" fill="#3ba6ed"/>
+            <rect x="270" y="450" width="260" height="14" rx="4" fill="#0d2a45" opacity=".15"/>
+          </g>
+        </svg>
+      </div>
+      <div class="case-meta">
+        <span class="case-num">02 — Branding</span>
+        <h4>Sweet Shop</h4>
+        <p>Logo, packaging and brochure for a local sweet shop.</p>
+        <span class="case-go">See more →</span>
+      </div>
+    </a>
+
+    <a href="#contact" class="case case-3" data-cursor="case">
+      <div class="case-art">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="600" fill="#3ba6ed"/>
+          <g>
+            <rect x="80" y="80" width="640" height="440" rx="18" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".4"/>
+            <text x="100" y="160" font-family="Poppins" font-weight="600" font-size="12" fill="#ffffff" opacity=".75">SOCIAL MEDIA / 2026</text>
+            <text x="100" y="340" font-family="Poppins" font-weight="800" font-size="110" fill="#ffffff">Big</text>
+            <text x="100" y="450" font-family="Poppins" font-weight="300" font-size="110" fill="#0d2a45">Sale.</text>
+            <text x="700" y="540" text-anchor="end" font-family="Poppins" font-weight="600" font-size="12" fill="#ffffff" opacity=".75">№ 03</text>
+          </g>
+        </svg>
+      </div>
+      <div class="case-meta">
+        <span class="case-num">03 — Social Media</span>
+        <h4>Festive Sale Campaign</h4>
+        <p>Instagram posts and reels for a clothing store.</p>
+        <span class="case-go">See more →</span>
+      </div>
+    </a>
+
+    <a href="#contact" class="case case-4" data-cursor="case">
+      <div class="case-art">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="600" fill="#ffffff"/>
+          <g class="rot-slow-rev">
+            <path d="M400 100 C 520 100, 600 200, 600 300 S 520 500, 400 500 S 200 400, 200 300 S 280 100, 400 100Z" fill="none" stroke="#0d2a45" stroke-width="1.5"/>
+            <path d="M400 140 C 500 140, 560 220, 560 300 S 500 460, 400 460 S 240 380, 240 300 S 300 140, 400 140Z" fill="none" stroke="#3ba6ed" stroke-width="1.5"/>
+          </g>
+          <text x="400" y="320" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="56" fill="#0d2a45">Wedding</text>
+          <text x="400" y="376" text-anchor="middle" font-family="Poppins" font-weight="300" font-size="42" fill="#3ba6ed">Invitations</text>
+          <text x="40" y="560" font-family="Poppins" font-weight="600" font-size="12" fill="#0d2a45" opacity=".6">PRINTING / 2024</text>
+          <text x="760" y="560" text-anchor="end" font-family="Poppins" font-weight="600" font-size="12" fill="#0d2a45" opacity=".6">№ 04</text>
+        </svg>
+      </div>
+      <div class="case-meta">
+        <span class="case-num">04 — Printing</span>
+        <h4>Wedding Invitations</h4>
+        <p>Custom wedding cards printed on premium paper.</p>
+        <span class="case-go">See more →</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="work-foot">
+    <a href="#contact" class="link-arrow" data-cursor="link">See all our work <span>↗</span></a>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="process">
+  <header class="sec-head sec-head-light">
+    <div class="sec-eyebrow eyebrow-light"><span class="sec-num">03</span> How We Work</div>
+    <h2 class="sec-title">Simple, <em>4-step</em> process. No confusion.</h2>
+  </header>
+
+  <ol class="steps">
+    <li class="step">
+      <span class="step-no">STEP 01</span>
+      <h4>You Tell Us</h4>
+      <p>Call us, WhatsApp us, or visit our office. Tell us what you need — even if you're not sure, we'll help you figure it out.</p>
+    </li>
+    <li class="step">
+      <span class="step-no">STEP 02</span>
+      <h4>We Show You</h4>
+      <p>We make 2-3 designs for you to choose from. You pick what you like. We make changes until you're happy.</p>
+    </li>
+    <li class="step">
+      <span class="step-no">STEP 03</span>
+      <h4>We Make It</h4>
+      <p>Once you approve the design, we print it, post it, or build it. Same-day delivery for most printing jobs.</p>
+    </li>
+    <li class="step">
+      <span class="step-no">STEP 04</span>
+      <h4>You Get Results</h4>
+      <p>You get your finished work and start seeing more customers. We're always here if you need anything else.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- STUDIO -->
+<section id="studio">
+  <div class="studio-grid">
+    <div class="studio-text">
+      <header class="sec-head" style="margin-bottom:32px; max-width:none;">
+        <div class="sec-eyebrow"><span class="sec-num">04</span> About Us</div>
+        <h2 class="sec-title">A friendly team that <em>understands</em> your business.</h2>
+      </header>
+      <p>
+        ADDMARK started in 2021 in Aurangabad. We help local shops, restaurants,
+        clinics, schools, and small businesses grow — with smart marketing and good-looking prints.
+      </p>
+      <p>
+        You talk directly to the person doing your work. No middlemen, no confusing terms,
+        no hidden charges. We explain everything in simple language and finish on time.
+      </p>
+      <div class="studio-quote">
+        <span class="q-mark">“</span>
+        <p>Our goal is simple — make your business look the best in your area, so more customers choose you.</p>
+      </div>
     </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero fade-in">
-        <div class="hero-content">
-            <h1 class="hero-title">We Design. <br> <span class="gradient-text">You Shine.</span></h1>
-            <p class="hero-subtitle">Elevate your brand with premium Digital Marketing & Print Media solutions.</p>
-            <div class="cta-group">
-                <a href="#services" class="btn btn-primary">Learn more</a>
-                <a href="#contact" class="link-arrow">Contact us <i class="fas fa-chevron-right"></i></a>
-            </div>
+    <aside class="studio-card">
+      <div class="card-row"><span>Started in</span><strong>2021</strong></div>
+      <div class="card-row"><span>Owner</span><strong>Saurabh S. Gaikwad</strong></div>
+      <div class="card-row"><span>Team</span><strong>6 people</strong></div>
+      <div class="card-row"><span>Office</span><strong>Chikalthana, Aurangabad</strong></div>
+      <div class="card-row"><span>Open</span><strong>Mon – Sat, 10am – 7pm</strong></div>
+      <div class="card-row"><span>Status</span><strong class="status">● Open today</strong></div>
+    </aside>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="contact-inner">
+    <div>
+      <div class="sec-eyebrow eyebrow-light"><span class="sec-num">05</span> Contact Us</div>
+      <h2 class="contact-title">Have a project? <em>Let's talk.</em></h2>
+      <p class="contact-lede">Call, WhatsApp, or fill the form below. We reply within a few hours. First quote is always free.</p>
+
+      <div class="contact-list">
+        <a class="c-row" href="tel:+919139375922" data-cursor="link">
+          <span class="c-key">Call Us</span>
+          <span class="c-val">+91 91393 75922</span>
+        </a>
+        <a class="c-row" href="https://wa.me/919139375922" data-cursor="link">
+          <span class="c-key">WhatsApp</span>
+          <span class="c-val">+91 91393 75922</span>
+        </a>
+        <a class="c-row" href="mailto:admark.studio9@gmail.com" data-cursor="link">
+          <span class="c-key">Email</span>
+          <span class="c-val">admark.studio9@gmail.com</span>
+        </a>
+        <div class="c-row">
+          <span class="c-key">Visit Us</span>
+          <span class="c-val">Chikalthana MIDC, Aurangabad 431007</span>
         </div>
-        <div class="hero-visual">
-            <!-- Abstract colored shapes mimicking Apple's wallpapers -->
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-        </div>
-    </section>
+      </div>
+    </div>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>Our Expertise.</h2>
-                <p>Comprehensive solutions for your modern business needs.</p>
-            </div>
+    <form id="contactForm" class="contact-form" novalidate>
+      <div class="f-row">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your full name" required>
+      </div>
+      <div class="f-row">
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel" placeholder="Your mobile number" required>
+      </div>
+      <div class="f-row">
+        <label for="scope">What Do You Need?</label>
+        <input id="scope" name="scope" type="text" placeholder="Logo, business cards, social media, etc.">
+      </div>
+      <div class="f-row">
+        <label for="message">Message (Optional)</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us a bit more about what you need"></textarea>
+      </div>
+      <button type="submit" class="submit-btn" data-cursor="cta">
+        <span>Send Message</span>
+        <span class="sb-icon">→</span>
+      </button>
+      <p class="form-success" hidden>✓ Thank you! We will call you back soon.</p>
+    </form>
+  </div>
+</section>
 
-            <div class="grid-container">
-                <!-- Digital Marketing (Full Width) -->
-                <div class="card card-large fade-in delay-100">
-                    <div class="card-content">
-                        <div class="icon-wrapper blue-bg">
-                            <i class="fas fa-bullhorn"></i>
-                        </div>
-                        <h3>Digital Marketing</h3>
-                        <p>Strategic campaigns that drive engagement and growth. SEO, Social Media, and more.</p>
-                    </div>
-                </div>
+<!-- FOOTER -->
+<footer class="foot">
+  <div class="foot-mega">
+    <span class="line-a">ADD</span>
+    <span class="line-b"><em>MARK.</em></span>
+  </div>
+  <div class="foot-row">
+    <span>© 2026 ADDMARK · Aurangabad, India</span>
+    <div class="foot-social">
+      <a href="#" data-cursor="link">Instagram</a>
+      <a href="#" data-cursor="link">Facebook</a>
+      <a href="https://wa.me/919139375922" data-cursor="link">WhatsApp</a>
+      <a href="tel:+919139375922" data-cursor="link">Call Us</a>
+    </div>
+    <span>We Design. You Shine.</span>
+  </div>
+</footer>
 
-                <!-- Graphic Design (Full Width) -->
-                <div class="card card-large fade-in delay-200">
-                    <div class="card-content">
-                        <div class="icon-wrapper purple-bg">
-                            <i class="fas fa-pen-nib"></i>
-                        </div>
-                        <h3>Graphic Design</h3>
-                        <p>Creative visual solutions including logos, branding, brochures, and social media creatives
-                            that capture your brand's essence.</p>
-                    </div>
-                </div>
-
-                <!-- Print Media -->
-                <div class="card card-medium fade-in delay-300">
-                    <div class="card-content">
-                        <div class="icon-wrapper purple-bg">
-                            <i class="fas fa-print"></i>
-                        </div>
-                        <h3>Print Media</h3>
-                        <p>High-quality printing for brochures, banners, and business cards.</p>
-                    </div>
-                </div>
-
-                <!-- Multiservices -->
-                <div class="card card-medium fade-in delay-300">
-                    <div class="card-content">
-                        <div class="icon-wrapper green-bg">
-                            <i class="fas fa-layer-group"></i>
-                        </div>
-                        <h3>Multiservices</h3>
-                        <p>Documentation, Shop Act, Passport services, and business compliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>Featured Work.</h2>
-                <p>A glimpse into our creative designs.</p>
-            </div>
-            <div class="grid-container">
-                <!-- Product Design (Featured) -->
-                <a href="product-design.html" class="portfolio-item portfolio-large fade-in delay-100">
-                    <img src="https://placehold.co/1200x600/e0f2f1/009688?text=Product+Design" alt="Product Design"
-                        class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h4>Product Design</h4>
-                        <p>Industrial & Digital Experiences</p>
-                    </div>
-                </a>
-
-                <!-- Brand Identity -->
-                <a href="brand-identity.html" class="portfolio-item portfolio-small fade-in delay-200">
-                    <img src="https://placehold.co/600x600/e0f7fa/0072ff?text=Brand+Identity" alt="Brand Identity"
-                        class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h4>Brand Identity</h4>
-                        <p>Graphic Design</p>
-                    </div>
-                </a>
-
-                <!-- Social Media Creative -->
-                <a href="social-media.html" class="portfolio-item portfolio-small fade-in delay-300">
-                    <img src="https://placehold.co/600x600/e1f5fe/00C6FF?text=Social+Media" alt="Social Media Creative"
-                        class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h4>Social Media Creative</h4>
-                        <p>Digital Marketing</p>
-                    </div>
-                </a>
-
-                <!-- Packaging -->
-                <a href="packaging.html" class="portfolio-item portfolio-small fade-in delay-100">
-                    <img src="https://placehold.co/600x600/f3e5f5/8E44AD?text=Packaging" alt="Packaging Design"
-                        class="portfolio-img">
-                    <div class="portfolio-overlay">
-                        <h4>Packaging</h4>
-                        <p>Print & Product</p>
-                    </div>
-                </a>
-            </div>
-            <div style="text-align: center; margin-top: 40px;" class="fade-in">
-                <p style="color: var(--text-secondary); margin-bottom: 20px;">Want to see more?</p>
-                <a href="#contact" class="btn btn-primary">Contact Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container fade-in">
-            <div class="about-wrapper">
-                <div class="about-text">
-                    <h2>Driven by Creativity.</h2>
-                    <p>AdMark Studio is located in the heart of Aurangabad's industrial hub. Led by Saurabh Sharad
-                        Gaikwad, we combine technical expertise with creative vision to deliver outstanding results for
-                        our clients.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container fade-in">
-            <div class="contact-card">
-                <div class="contact-header">
-                    <h2>Get in Touch</h2>
-                    <p>Ready to start your project?</p>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <div class="info-row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Plot No W-34, Chikalthana MIDC, Near Millennium Park, Aurangabad (431007)</span>
-                        </div>
-                        <div class="info-row">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:admark.studio9@gmail.com">admark.studio9@gmail.com</a>
-                            <!-- Placeholder -->
-                        </div>
-                        <div class="info-row">
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:+919876543210">+91 91393 75922</a> <!-- Placeholder -->
-                        </div>
-                    </div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="How can we help?" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 AdMark Studio. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
